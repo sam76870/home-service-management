@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" media="all">
     <title>Home Service</title>
 </head>
 
@@ -26,7 +29,6 @@
                             <!-- </div> -->
                         </a>
                     </h1>
-                    <!-- <div class="brand_title">Home Service</div> -->
                 </div>
                 <div class="logo_address">
                     <div class="h3-title">
@@ -35,7 +37,7 @@
                     <ul>
                         <li>
                             <span class="fa fa-envelope" aria-hidden="true"></span>
-                            <a href="mailto:info@example.com">a2zservices.com</a>
+                            <a href="mailto:info@example.com">Homeservices.com</a>
                         </li>
                         <li>
                             <span class="fa fa-phone" aria-hidden="true"></span>+1234 567 892
@@ -46,15 +48,10 @@
                     </ul>
                 </div>
             </div>
-            
+
             <!-- Start navbar -->
             <div class="navbar">
-                <!-- <button type="toggle_button">Menu</button> -->
-                <a href="#" class="navbar_toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
+                <p class="toggle_button">Menu</p>
                 <div class="navbar_links">
                     <ul>
                         <li> <a href="#">Home</a></li>
@@ -63,6 +60,7 @@
                         <li><a href="#">plans</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">status</a></li>
                     </ul>
                 </div>
             </div>
@@ -82,14 +80,31 @@
                 <!-- radio button end -->
                 <!-- slide image start -->
                 <div class="slide first">
+                    <div class="text_banner">
+                        <div class="banner">
+                            <h3>one stop home services</h3>
+                            <p>let us do it for you.</p>
+                        </div>
+                    </div>
                     <img src="img/bg1.jpg" alt="">
-                    <!-- <h3>one click repair service</h3>
-                    <p>repair.&nbsp;improve.&nbsp;maintain</p> -->
                 </div>
                 <div class="slide">
+                    <div class="text_banner">
+                        <div class="banner">
+                            <h3>one click repair service</h3>
+                            <p>repair.&nbsp;improve.&nbsp;maintain</p>
+                        </div>
+                    </div>
                     <img src="img/bg2.jpg" alt="">
                 </div>
                 <div class="slide">
+                    <div class="text_banner">
+                        <div class="banner">
+                            <h3>Property Maintenance Services</h3>
+                            <p>one call does it all.</p>
+                        </div>
+                    </div>
+
                     <img src="img/bg3.jpg" alt="">
                 </div>
                 <!-- slide image end -->
@@ -111,6 +126,53 @@
         </div>
     </div>
     <!-- IMager slider end -->
+
+    <!-- icon container Start -->
+    <div class="icon_container">
+        <div class="icon_box">
+            <div class="service_icon">
+                <i class="fas fa-fan"></i>
+                <p>Fan services</p>
+            </div>
+
+            <div class="service_icon">
+                <i class="fas fa-plug"></i>
+                <p>Electrical services</p>
+            </div>
+
+            <div class="service_icon">
+                <i class="fas fa-tools"></i>
+                <p>Appliance services</p>
+            </div>
+
+            <div class="service_icon">
+                <i class="fas fa-paint-roller"></i>
+                <p> Painter</p>
+            </div>
+        </div>
+        <div class="icon_box">
+            <div class="service_icon">
+                <i class="fas fa-broom"></i>
+                <p>cleaning & disinfection</p>
+            </div>
+            <div class="service_icon">
+                <i class="fas fa-table"></i>
+                <p>carpanters</p>
+            </div>
+
+            <div class="service_icon">
+                <i class="fas fa-faucet"></i>
+                <p>plumbers</p>
+            </div>
+
+            <div class="service_icon">
+                <i class="fas fa-pastafarianism"></i>
+                <p>pest controls</p>
+            </div>
+        </div>
+    </div>
+    <!-- icon container End -->
+
     <!-- Start Middle Container -->
     <div class="middle_cont">
         <div class="middle_box image">
@@ -122,7 +184,7 @@
                 </h4>
             </div>
         </div>
-        <div class="middle_box">
+        <div class="middle_box vision_service">
             <h4 class="head_text">One Stop Solution for your Complete Home Maintenance</h4>
             <div class="points">
                 <div class="feature_container">
@@ -174,7 +236,7 @@
                     </table>
                 </div>
                 <div class="feature_container">
-                    <img src="img/a1.png" alt="" srcset="">
+                    <img src="img/a1.png">
                 </div>
             </div>
         </div>
@@ -193,6 +255,7 @@
         </div>
     </div>
     <!--End service section -->
+
     <!-- Footer section start -->
     <div class="footer_container">
         <div class="footer_dot">
@@ -298,6 +361,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="newsLetter_container">
+                    <div class="update_container">
+                        <img src="img/mail.png">
+                        <h4>stay upto date with our newsletter!</h4>
+                    </div>
+                    <div class="update_container">
+                        <p>Sign up to receive helpful Q&A, info on upcoming services and more.</p>
+                    </div>
+                    <div class="update_container">
+                        <form action="#" method="post">
+                            <input type="email" placeholder="Enter your email.." name="Subscribe" required="">
+                            <button class="btn1">sign up</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -353,7 +431,12 @@
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
+        <div class="down_footer">
+            <p>© 2017 A2Z. All rights reserved | Design by Shubham Pathak</p>
+        </div>
+    </div>
+    <script src="js/slider.js" defer></script>
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
